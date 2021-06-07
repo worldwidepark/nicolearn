@@ -9,6 +9,33 @@
     </head>
     <body>
         <h1>this works</h1>
-        <script src="index.js"></script>
+        <script src="index.js">
+            const a = 221; //string ,boolean, number, float*실수
+                            //재선언 재할당이 불가능
+            // value should be camel case*start with lower :ex) daysOfWeek
+            let a=221; //재선언 불가 재할당 가능
+            
+            //array[] made of date types + value(함수)
+            //aray[2] show third data
+            /*object-> can be array / parkInfo= {name:'park',
+            age:33,
+            isHandsome:true,
+            faveMovies:["Along the gods","mac"]},
+            favFood:[{name:"kimchi",fatty:false},{name:"cheeseburger"}]
+            */
+            //parkInfo.favFood[0].fatty 
+            
+            function sayHello(name){
+                console.log('Hello'+name+"you have",chicken);
+                return(`Hello ${name} you are ${age} years old`);
+            }
+            sayHello("nicolas",15);
+
+            const greeNicolas = sayHello("nicolas",14);
+            console.log(greeNicolas);
+
+        </script>
+        
     </body>
 </html>
+//고정 에러를 잘 읽어라 
