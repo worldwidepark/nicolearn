@@ -1,1 +1,2 @@
-console.log('im working im js. im beautiful.')
+const title = document.getElementById('title');
+title.innerHTML = 'HI!';
