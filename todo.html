@@ -6,13 +6,17 @@
     </head>
     <body>
     
-    <form id="login-form">
+    <form id="login-form" class="hidden" >
     <input required maxlength ='15'
      type="text" placeholder="who are you?" />
         <button>Log in</button>
-    </form> <!--- form 으로 바꿔주면 유효성 검사를 할 수 있따.-->
-<!--input 안에 button 이 있을떄, 버튼을 누르면 submit이 된다. 그리고 새로고침이 된다.-->
-
-    <script src="app.js"></script>        
-    </body>
+    </form> 
+    <!--- form 으로 바꿔주면 유효성 검사를 할 수 있따.-->
+    <!--input 안에 button 이 있을떄, 버튼을 누르면 submit이 된다. 그리고 새로고침이 된다.-->
+    <h2 id = 'clock' ></h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <script src="greetings.js"></script>        
+    <script src="clock.js"></script>     
+    <!--js/clock.js-->    
+</body>
 </html>
